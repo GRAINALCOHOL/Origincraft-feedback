@@ -1,0 +1,26 @@
+name: "调整建议"
+description: "增添/删减/修改模组或功能"
+labels: ["B: 新功能 : |"]
+body:
+- type: checkboxes
+  id: "yml-1"
+  attributes:
+    label: "检查项"
+    description: "在提交issue之前，请检查以下三项内容："
+    options:
+    - label: "**我确认增加的内容与整合包类型相符** 整合包偏向冒险，若为偏科技内容则不会增加"
+      required: true
+    - label: "**我确认增加的内容不会与整合包内容冲突** 整合包内容经过调整适配，若与已存在的内容冲突则不会增加"
+      required: true
+    - label: "**我确认增加的内容不会影响游戏平衡** 例如等价交换、加速火把等Mod不会添加"
+      required: true
+    - label: "我已在 [Issues 页面](https://github.com/Qian-F/QFserver-Wonder/issues) 中搜索，确认了这一提案未被提交过。"
+      required: true
+- type: textarea
+  id: "yml-2"
+  attributes:
+    label: 内容
+    description: "要修改的内容或打算添加的Mod，并说明原因"
+    placeholder: "例如:我想加一个 经验存贮(XP store)，这个模组可以方便玩家存放经验，方便使用"
+  validations:
+    required: true
