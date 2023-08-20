@@ -10,7 +10,7 @@ body:
     options:
     - label: "**增添的模组能在1.19.2Fabric上加载** 想要搜索某模组的应用版本&加载器，请前往 [MC百科](https://www.mcmod.cn/)"
       required: true
-    - label: "我已在 [Issues 页面](https://github.com/Qian-F/QFserver-Wonder/issues) 中搜索，确认了这一建议未被提交过。"
+    - label: "我已在 [Issues 页面](https://github.com/GRAINALCOHOL/Origincraft-feedback/issues/new/choose) 中搜索，确认了这一建议未被提交过。"
       required: true
 - type: textarea
   id: "yml-2"
