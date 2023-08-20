@@ -14,7 +14,7 @@ body:
       required: true
     - label: "**我确认增加的内容不会影响游戏平衡** 例如等价交换、加速火把等Mod不会添加"
       required: true
-    - label: "我已在 [Issues 页面](https://github.com/Qian-F/QFserver-Wonder/issues) 中搜索，确认了这一提案未被提交过。"
+    - label: "我已在 [Issues 页面](https://github.com/GRAINALCOHOL/Origincraft-feedback/issues/new/choose) 中搜索，确认了这一提案未被提交过。"
       required: true
 - type: textarea
   id: "yml-2"
