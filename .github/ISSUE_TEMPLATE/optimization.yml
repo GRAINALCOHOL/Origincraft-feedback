@@ -1,5 +1,5 @@
 name: "优化建议"
-description: "对已有功能的优化或改进建议"
+description: "对整合包的内容/性能优化建议"
 labels: ["B: 优化建议"]
 body:
 - type: checkboxes
@@ -8,7 +8,7 @@ body:
     label: "检查项"
     description: "在提交issue之前，请检查以下两项内容："
     options:
-    - label: "**此建议不涉及模组的增删** 针对需要增删模组的建议，请前往 [新功能提案](https://github.com/Qian-F/QFserver-Wonder/issues/new?assignees=&labels=%C2%B7+%E6%96%B0%E5%8A%9F%E8%83%BD%2C%E5%8F%8D%E9%A6%88&template=feature.yml)"
+    - label: "**增添的模组能在1.19.2Fabric上加载** 想要搜索某模组的应用版本&加载器，请前往 [MC百科](https://www.mcmod.cn/)"
       required: true
     - label: "我已在 [Issues 页面](https://github.com/Qian-F/QFserver-Wonder/issues) 中搜索，确认了这一建议未被提交过。"
       required: true
@@ -16,7 +16,7 @@ body:
   id: "yml-2"
   attributes:
     label: 内容
-    description: "详细描述具体需要优化哪些地方，要改成怎样的，以及为什么需要这项优化？"
-    placeholder: "例如:我想在主页增加一个单人游戏，这样便于我测试模组内容"
+    description: "详细描述具体需要优化哪些地方，修改什么，以及为什么需要？"
+    placeholder: "例如:因为游戏帧率波动比较大，我要推荐一个模组，他能优化整合包的稳定性"
   validations:
     required: true
