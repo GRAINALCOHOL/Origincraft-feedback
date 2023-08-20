@@ -8,7 +8,7 @@ body:
     label: "检查项"
     description: "在提交issue之前，请检查以下两项内容："
     options:
-    - label: "**增添的模组能在1.19.2Fabric上加载** 想要搜索某模组的应用版本&加载器，请前往 [MC百科](https://www.mcmod.cn/)"
+    - label: "**所需的模组等可以在1.19.2Fabric上加载** 想要搜索某模组的应用版本&加载器，请前往[MC百科](https://mcmod.cn/)/[Curseforge](https://www.curseforge.com/minecraft)/[Modrinth](https://modrinth.com/)"
       required: true
     - label: "我已在 [Issues 页面](https://github.com/GRAINALCOHOL/Origincraft-feedback/issues/new/choose) 中搜索，确认了这一建议未被提交过。"
       required: true
